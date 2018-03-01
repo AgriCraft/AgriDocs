@@ -1,6 +1,9 @@
+Known Issues
+==================================================
+
 # Settings
 
-## Many of the config options are non-functional. 
+## Many of the config options are non-functional.
 
 Many things were left as placeholders during the beginning of the port to 1.10. But this easily leads to all sorts of confusion, since it's so misleading. Note that this applies to both the in game Mod Options menu and the "config/agricraft/config.cfg" file, since they're automatically kept in sync.
 
@@ -8,13 +11,13 @@ TODO: Comment out the useless options for now. And list the working or not optio
 
 ## The config options don't get synchronized with remote servers.
 
-This isn't a problem for single player. And players can manually set or update the server side config.cfg. But it's a pain, and a source of bugs. 
+This isn't a problem for single player. And players can manually set or update the server side config.cfg. But it's a pain, and a source of bugs.
 
 TODO: Add the logic for sending and updating the settings.
 
 ## Some config options require a reboot to take effect, but aren't marked for it.
 
-For example, you need to restart to change the chance of mutation versus a spread onto a cross crop. I'm pretty sure that there's ways of automatically enforcing this, but a fancy solution is a lower priority over the other config related issues. 
+For example, you need to restart to change the chance of mutation versus a spread onto a cross crop. I'm pretty sure that there's ways of automatically enforcing this, but a fancy solution is a lower priority over the other config related issues.
 
 TODO: Add a hint to the comment at least.
 
@@ -30,7 +33,7 @@ TODO: Add the agri_seed to the JSON lists, or change how the code creates new se
 
 The Seed Analyzer doesn't add the NBT tag for the associated plant, but seeds dropped by plants do have that tag. This prevents otherwise identical seeds from stacking, and it won't be obvious why unless you make NBT tags visible. Before fixing this, need to check which approach makes more sense. On the one hand, the plant you get from an item determined by what the item itself is. On the other hand, it's possible for multiple JSONs to accidentally use the same item as a seed.
 
-# Sprinkler 
+# Sprinkler
 
 ## Water droplets look weird
 
@@ -38,11 +41,11 @@ The rendering code for them hasn't been fixed up completely yet. Sorry. :(
 
 ## Farmland will flicker dry distractingly often
 
-When vanilla farmland gets a random tick, and there isn't water nearby, it stops being moist. Meanwhile, the sprinkler does a full loop every few seconds (minimum 49 ticks). Unless the loop duration is incredibly long, the sprinkler will reset the moisture before the farmland gets enough random updates (seven?) to completely dry out. But the flicker is annoying, and I would like to improve that. 
+When vanilla farmland gets a random tick, and there isn't water nearby, it stops being moist. Meanwhile, the sprinkler does a full loop every few seconds (minimum 49 ticks). Unless the loop duration is incredibly long, the sprinkler will reset the moisture before the farmland gets enough random updates (seven?) to completely dry out. But the flicker is annoying, and I would like to improve that.
 
-## Sprinkler model disappears sometimes. 
+## Sprinkler model disappears sometimes.
 
-I thought this was an issue with resource packs, but I've had it happen with vanilla textures. 
+I thought this was an issue with resource packs, but I've had it happen with vanilla textures.
 
 # Compatibility
 
@@ -60,11 +63,11 @@ Sorta. The farming station just uses `ItemDye.applyBonemeal`, so it's compatible
 
 ## Extra Utilities 2
 
-The Watering Can just does update ticks, so it works already. 
+The Watering Can just does update ticks, so it works already.
 
 ## Actually Additions
 
-The Farmer only looks for blocks that extend the vanilla BlockCrops (which AgriCraft doesn't), so it does not work currently. The hand held fertilizer requires you to crouch first, because otherwise right-clicks are handled by the block before the item gets a chance to activate. The Ring of Growth works if you stand near the crops. The Worms should, although I haven't closely enough compared farmland with and without them. (They only give updates to IGrowable and IPlantable things on top of farmland.) 
+The Farmer only looks for blocks that extend the vanilla BlockCrops (which AgriCraft doesn't), so it does not work currently. The hand held fertilizer requires you to crouch first, because otherwise right-clicks are handled by the block before the item gets a chance to activate. The Ring of Growth works if you stand near the crops. The Worms should, although I haven't closely enough compared farmland with and without them. (They only give updates to IGrowable and IPlantable things on top of farmland.)
 
 ## Thermal Expansion
 
@@ -76,17 +79,17 @@ The Fertilizer works if you crouch.
 
 ## Others...
 
-The IC2 Fertilizer doesn't work. Nor the Natura Bone Meal Bag. Nor the Roots Growth Powder (no idea if that's even for farming, tbh.) 
+The IC2 Fertilizer doesn't work. Nor the Natura Bone Meal Bag. Nor the Roots Growth Powder (no idea if that's even for farming, tbh.)
 
 # Misc
 
 ## Mutations
 
-The cross-over engine hasn't been updated to allow plants to spawn on cross crops when the light is invalid, or other requirements are unmet. 
+The cross-over engine hasn't been updated to allow plants to spawn on cross crops when the light is invalid, or other requirements are unmet.
 
 ## Magnifying Glass
 
-The brightness check code results can still be a little weird sometimes (compare with F3 when clicking on a torch), so try different blocks and faces to make sure you have right answer. The reason is that it calls `getLightFromNeighbors` on the position above what was clicked, and get light from neighbors sometimes checks the five neighbors of that position. (Depending on `useNeighborBrightness`.) The bottom line though is that it's the same call that `GrowthRequirement#hasValidLight` uses, so for purposes of plant debugging it is functioning correctly. 
+The brightness check code results can still be a little weird sometimes (compare with F3 when clicking on a torch), so try different blocks and faces to make sure you have right answer. The reason is that it calls `getLightFromNeighbors` on the position above what was clicked, and get light from neighbors sometimes checks the five neighbors of that position. (Depending on `useNeighborBrightness`.) The bottom line though is that it's the same call that `GrowthRequirement#hasValidLight` uses, so for purposes of plant debugging it is functioning correctly.
 
 TODO: study vanilla lighting mechanics.
 
@@ -94,6 +97,6 @@ TODO: study vanilla lighting mechanics.
 
 Darn, I thought we were done with that. Check if you've got JourneyMap 1.10.2 - 5.4.9b1 installed. Try disabling it, even if it's a different version. Otherwise, check out #1034 for more fun.
 
-# This document... 
+# This document...
 
 * Add links to the corresponding posts on the issue tracker.

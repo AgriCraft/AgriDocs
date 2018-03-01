@@ -1,8 +1,11 @@
+Frequently Asked Questions
+==================================================
+
 ## How do I prevent a plant from spawning? How do I disable it?
 
 In the corresponding JSON file, change the `spawn_chance` or `enabled` settings. Note that if you delete the JSON file for a bundled plant, it will be regenerated with its default settings.
 
-## How do I disable weeds? 
+## How do I disable weeds?
 
 Quick answer: Same like any other plant.
 

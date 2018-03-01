@@ -1,3 +1,6 @@
+AgriCraft Plant JSON
+==================================================
+
 AgriCraft 2.0.0 introduces an exciting new feature: **JSON Custom Plants**!
 
 JSON Custom Plants (i.e. AgriPlants) allow for total control of your agricultural experience, and even work in multiplayer environments!
@@ -66,7 +69,7 @@ The JSON file may be located in any folder under the `config\agricraft\json\defa
         "min_z": 0,   # below the soil block. Notice that the upper bound is inclusive, so that to specify a
         "max_x": 0,   # single block we use the same point twice, not the upper left and lower right points.
         "max_y": -2,
-        "max_z": 0, 
+        "max_z": 0,
         "item": "minecraft:gold_ore", # This part specifies information about the block required.
         "meta": 0, # This is a *direct* extension of an AgriStack meaning that it has all the same fields as
         "tags": "", # would be found on say the seed_items field.
