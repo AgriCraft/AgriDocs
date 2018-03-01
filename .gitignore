@@ -1,0 +1,6 @@
+#
+# AgriDocs .gitignore
+#
+
+# Ignore the compiled site.
+site/
