@@ -4,7 +4,7 @@
 
 # Page Index
 pages:
-  - Home: 'home.md'
+  - Home: 'index.md'
   - Terminology: 'terminology.md'
   - AgriJSON:
     - About: 'agri_json.md'
