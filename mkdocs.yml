@@ -2,9 +2,6 @@
 # AgriDocs ReadTheDocs configuration.
 #
 
-# Site Title
-site_name: AgriCraft Documentation
-
 # Page Index
 pages:
   - Home: 'home.md'
@@ -17,6 +14,9 @@ pages:
   - FAQ: 'faq.md'
   - Roadmap: 'roadmap.md'
   - Known Issues: 'known_issues.md'
+
+# Site Title
+site_name: AgriCraft Documentation
 
 # Extensions
 markdown_extensions:
