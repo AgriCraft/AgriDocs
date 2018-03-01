@@ -11,7 +11,7 @@ This page will serve as a guide to using this awesome new feature of AgriCraft!
 The JSON file may be located in any folder under the `config\agricraft\json\default` directory. Furthermore, the file must end in with `_plant.json` so that for a plant like wheat, the file name would be `wheat_plant.json`. This requirement is made so that the JSON file loader can differentiate between the different JSON file types.
 
 ## Structure
-````
+````{json}
 {
   "enabled": true, # Determines if the plant should be loaded or not.
   "path": "", # An internal field used for the transmission of JSON definitions.
