@@ -1,0 +1,24 @@
+#
+# AgriDocs ReadTheDocs configuration.
+#
+
+# Site Title
+site_name: AgriCraft Documentation
+
+# Page Index
+pages:
+  - Home: 'home.md'
+  - Terminology: 'terminology.md'
+  - AgriJSON: 'agri_json.md'
+    - AgriPlant: 'agri_plant.md'
+    - AgriMutation: 'agri_mutation.md'
+    - AgriSoil: 'agri_soil.md'
+  - FAQ: 'faq.md'
+  - Roadmap: 'roadmap.md'
+  - Known Issues: 'known_issues.md'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - smarty
+  - sane_lists
