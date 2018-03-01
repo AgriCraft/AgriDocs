@@ -9,7 +9,8 @@ site_name: AgriCraft Documentation
 pages:
   - Home: 'index.md'
   - Terminology: 'terminology.md'
-  - AgriJSON: 'agri_json.md'
+  - AgriJSON:
+    - About: 'agri_json.md'
     - AgriPlant: 'agri_plant.md'
     - AgriMutation: 'agri_mutation.md'
     - AgriSoil: 'agri_soil.md'
