@@ -10,6 +10,7 @@ JSON Custom Files (i.e. AgriJSONs) allow for total control of your agricultural 
 AgriCraft JSON Files are currently broken down into four categories:
 
  * [AgriPlants](./agri_plant.md)
+ * [AgriWeeds](./agri_weed.md)
  * [AgriMutations](./agri_mutation.md)
  * [AgriSoils](./agri_soil.md)
  * [AgriFertilizers](./agri_fertilizer.md)

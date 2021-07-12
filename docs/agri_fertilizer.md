@@ -9,12 +9,12 @@ AgriCraft Fertilizer JSON
   "version": "1.16.4", // The version of the AgriCraft Fertilizer JSON.
   "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_fertilizer/", // Documentation of the AgriCraft Fertilizer JSON
   "enabled": true, // Determines if the fertilizer should be loaded or not.
-  "mods": [ // An array of mod ids. The plant will be loaded only if all mods using those ids are present.
+  "mods": [ // An array of mod ids. The fertilizer will be loaded only if all mods using those ids are present.
     "agricraft",
     "minecraft"
   ],
   "id": "vanilla:bone_meal_fertilizer", // The unique string id for the fertilizer.
-  "lang_key": "item.minecraft.bone_meal",// The name of the plant. Can be a lang key.
+  "lang_key": "item.minecraft.bone_meal",// The name of the fertilizer. Can be a lang key.
   "variants": [ // An array of objects representing all the items that this fertilizer represents.
     {           // This specific soil considers farmland and gravel to be the same soil.
       "type": "item",

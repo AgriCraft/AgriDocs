@@ -13,7 +13,7 @@ AgriCraft Soil JSON
     "agricraft",
     "minecraft"
   ],
-  "id": "farmland_soil", // The unique string id for the plant.
+  "id": "farmland_soil", // The unique string id for the soil.
   "lang_key": "agricraft.soil.farmland.name", // The user-readable name of the soil. This does not need to be unique. Can be a lang key.
   "varients": [ // An array of AgriStacks representing all the blocks that this soil represents.
     {           // This specific soil considers farmland and gravel to be the same soil.
