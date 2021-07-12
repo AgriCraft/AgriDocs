@@ -27,8 +27,8 @@ AgriCraft Weed JSON
   ],
   "spawn_chance": 0.25, // The chance the weed has of spawning on a random tick [range: 0.0-1.0].
   "growth_chance": 0.9, // The chance the weed has of growing on a random tick [range: 0.0-1.0].
-  "aggressive": true, // Determine if the weed reduce the growth stage of the plant.
-  "lethal": true,     // Determine if the weed can kill the plant.
+  "aggressive": true, // Defines if a weed is aggressive, aggressive weeds will try to spread to adjacent crops when mature.
+  "lethal": true,     // Defines if a weed is lethal, lethal weeds will try to kill the host plant when mature.
   "rake_drops": {
     "products": [] // A list containing the possible raking products of the weed.
   },
