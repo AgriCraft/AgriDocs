@@ -4,3 +4,6 @@
 
 # Ignore the compiled site.
 site/
+
+.gitignore
+.idea/

@@ -14,6 +14,7 @@ pages:
     - AgriPlant: 'agri_plant.md'
     - AgriMutation: 'agri_mutation.md'
     - AgriSoil: 'agri_soil.md'
+    - AgriFertilizer: 'agri_fertilizer.md'
   - FAQ: 'faq.md'
   - Roadmap: 'roadmap.md'
   - Known Issues: 'known_issues.md'
