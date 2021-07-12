@@ -3,7 +3,7 @@ AgriCraft Soil JSON
 
 ## Structure
 
-```json5
+```{json}
 {
   "path": "vanilla/soils/farmland_soil.json", // An internal field used for the transmission of JSON definitions.
   "version": "1.16.4", // The version of the AgriCraft Soil JSON.
@@ -77,7 +77,7 @@ The condition is met if the soil value is in the range :
 ### Exemple for humidity
 
 Assuming the plant has a strength of 10 and has this condition in the json :
-```json
+```{json}
 {
   "soil_humidity": {
     "condition": "damp",

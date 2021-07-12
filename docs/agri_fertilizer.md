@@ -3,7 +3,7 @@ AgriCraft Fertilizer JSON
 
 ## Structure
 
-```json5
+```{json}
 {
   "path": "vanilla/fertilizers/bone_meal_fertilizer.json", // An internal field used for the transmission of JSON definitions.
   "version": "1.16.4", // The version of the AgriCraft Fertilizer JSON.

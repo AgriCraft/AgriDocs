@@ -14,7 +14,7 @@ The JSON file may be located in any folder under the `config\agricraft\json\defa
 
 /!\ This is the structure for Agricraft 3.0.0 /!\
 
-```json5
+```{json}
 {
   "path": "vanilla/plants/wheat_plant.json", // An internal field used for the transmission of JSON definitions.
   "version": "1.16.4", // The version of the AgriCraft Plant JSON.
