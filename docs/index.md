@@ -15,7 +15,8 @@ AgriCraft has releases for Minecraft versions 1.7.10 and onwards, status per Min
 |![1.9]    | Skipped 1.9, as it was an incredibly short-lived release.
 |![1.10]   | Port finished, but not moved out of alpha.
 |![1.11]   | Skipped 1.11.
-|![1.12]   | Port in progress.
+|![1.12]   | Closed.
+|![1.16]   | Ported. This is the only supported version as of now.
 
 ## Bug Reports [![bug]][bug-link]
 
@@ -51,3 +52,4 @@ this kind of information is, most of the time, only needed by pack creators and 
 [1.10]:https://agricraft.github.io/versions/1.10/status.svg
 [1.11]:https://agricraft.github.io/versions/1.11/status.svg
 [1.12]:https://agricraft.github.io/versions/1.12/status.svg
+[1.16]:https://agricraft.github.io/versions/1.16/status.svg

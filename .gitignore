@@ -4,3 +4,5 @@
 
 # Ignore the compiled site.
 site/
+
+.idea/

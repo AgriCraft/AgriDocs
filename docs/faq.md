@@ -19,12 +19,18 @@ Probably because one of those stacks have the AgriCraft plant stats on them, and
 
 ## How do I use Fertilizers from other mods?
 
-Crouch while right clicking. The way right clicks work, the block usually gets the first chance to handle the click, and if it does, then the item doesn't do anything. If you want to skip the block, you have to crouch while right clicking. Forge allows coders to add exceptions, but that is the basic rule.
-
-## Why can I keep applying bonemeal to a fully grown plant?
-
-Plants can have a non-zero chance to spread to their neighboring single crop sticks. This is different from the spread onto a cross crop, because the stats don't change here. This behavior might change in the future, once more fertilizers are added.
+Create the corresponding fertilizer json. With some luck it's already present.
 
 ## Why can't I put the seed into the Seed Analyzer?
 
 My first guess is that there isn't support for that plant or mod yet. Check the JSON folder for the server (default is for all of single player), then if there's a folder for the mod, and then if there's a file for that plant.
+
+## How can I use the seed Analyzer ?
+
+You need to shift + right click with the journal or seed in your hand. If the journal is in the analyzer and you analyze a seed, the page for the seed will show up in the journal.
+
+## How can I use the seed bag ?
+
+Hold the bag in your off hand, then right click with a seed in your main hand to put the seed in the bag, or with a empty hand to retrieve one seed.
+You can shake the bag (shift + right click) to change the order of the seeds.
+You can plant seeds directly from the bag with a right click from the main hand.
