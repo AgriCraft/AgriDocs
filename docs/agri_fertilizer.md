@@ -42,16 +42,16 @@ AgriCraft Fertilizer JSON
     },
     "particles": [ // An array of particles that are spawned in the world when the fertilizer is used on a plant.
       {
-        "id": "minecraft:smoke", // The id of the particle
-        "delta_x": 0.3, // How far from the center of the block the particle can spawn (X axis).
-        "delta_y": 0.4, // How high from the center of the block the particle can spawn (Y axis).
-        "delta_z": 0.3, // How far from the center of the block the particle can spawn (Z axis).
         "amount": 2, // The amount of particles
         "when": [ // Determine on which plants the particle should spawn
           "positive",
           "neutral",
           "negative"
-        ]
+        ],
+        "id": "minecraft:smoke", // The id of the particle
+        "delta_x": 0.3, // How far from the center of the block the particle can spawn (X axis).
+        "delta_y": 0.4, // How high from the center of the block the particle can spawn (Y axis).
+        "delta_z": 0.3  // How far from the center of the block the particle can spawn (Z axis).
       }
     ]
   }
