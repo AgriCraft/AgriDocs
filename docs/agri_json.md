@@ -7,7 +7,7 @@ The file structure have changed, but don't worry, jsons for AgriCraft 2.0 are co
 
 JSON Custom Files (i.e. AgriJSONs) allow for total control of your agricultural experience, and even work in multiplayer environments! The files are so powerful, that there are no longer any hard-coded plants coded into the mod, as instead they are all done by JSON files. This means that if wheat plants dropping wheat is too vanilla for you, you can easily modify them to drop cooked chickens instead (it tastes like chicken...). This page serves as your definitive guide to modding AgriCraft in this manner, as to make you essentially a meta-modder.
 
-AgriCraft JSON Files are currently broken down into four categories:
+AgriCraft JSON Files are currently broken down into five categories:
 
  * [AgriPlants](./agri_plant.md)
  * [AgriWeeds](./agri_weed.md)
