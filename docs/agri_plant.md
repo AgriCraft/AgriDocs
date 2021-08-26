@@ -208,3 +208,9 @@ The JSON file may be located in any folder under the `config\agricraft\json\defa
 - **Plus**    (+) : Similar to cross, but instead 4 crosses at each crop stick.
 - **Gourd**   (@) : i.e. for pumpkins and melons: renders a hash pattern for the initial stages, with a small gourd for the final stage.
 - **Rhombus** (◇) : 4 faces spanning between the centers of the block faces, only used for weeds.
+
+## About Mystical Agriculture
+
+Mystical Agriculture and its addon have non-usual plants. Their plants/seeds are dynamically colored.
+We thus introduced a new render type **mysticalagriculture** which render the plant like the **plus** render type.
+This render type expects the last texture in the textures array to contain two textures: one for the stem, and another for the flowers: [ "mysticalagriculture:block/mystical_resource_crop_7", "mysticalagriculture:block/flower_ingot" ]

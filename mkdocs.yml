@@ -2,11 +2,16 @@
 # AgriDocs ReadTheDocs configuration.
 #
 
-# Site Title
+# Site Configuration
 site_name: AgriCraft Documentation
+site_url: https://agridocs.readthedocs.io
+repo_url: https://github.com/AgriCraft/AgriDocs/
+
+theme:
+  name: readthedocs
 
 # Page Index
-pages:
+nav:
   - Home: 'index.md'
   - Terminology: 'terminology.md'
   - AgriJSON:

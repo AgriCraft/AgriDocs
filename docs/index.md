@@ -1,4 +1,4 @@
-# AgriCraft [![build]][build-link] ![branch][] ![minecraft][] [![curse]][curse-link]
+# AgriCraft [![build]][build-link] ![branch] ![minecraft] [![curse]][curse-link]
 
 Agricultural farming extended.
 
@@ -34,7 +34,7 @@ this kind of information is, most of the time, only needed by pack creators and 
 [build-link]:https://travis-ci.org/AgriCraft/AgriCraft
 [build]:https://travis-ci.org/AgriCraft/AgriCraft.svg?branch=master "Travis-CI Build Status"
 [branch]:https://img.shields.io/badge/branch-master-aaaaff.svg "GitHub Branch"
-[minecraft]:https://agricraft.github.io/versions/1.12/minecraft.svg "Minecraft Version"
+[minecraft]:https://agricraft.github.io/versions/1.16/minecraft.svg "Minecraft Version"
 [curse-link]:http://agricraft.github.io/curse
 [curse]:http://cf.way2muchnoise.eu/full_agricraft_downloads.svg "CurseForge"
 [contact-link]:https://agricraft.github.io/contact
